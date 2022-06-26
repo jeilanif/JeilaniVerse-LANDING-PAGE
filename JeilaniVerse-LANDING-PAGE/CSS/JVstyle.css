@@ -1,2 +1,28 @@
-.body
-.h1 
+body {
+    background-color: #DADCD9;
+}
+
+/* Menu Bar setup */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+margin: 20px;
+}
+
+/* Main center Logo */
