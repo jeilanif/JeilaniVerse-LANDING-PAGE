@@ -1,25 +1,29 @@
 body {
     background-color: #DADCD9;
+    
+}
+/*Section1 */ 
+
+#JEIV{
+    border: 0px solid red; 
+    width: 200vh;  
+    height: auto;
+
 }
 
 /* Menu Bar setup */
-body{ scroll-behavior: smooth;
-}
-    .container {
+
+
+    .header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        border: px solid black;
+        border: 0px solid black;
         position: fixed;
         top:0; z-index: 1;
-        width: 96.5%;
-        overflow: scroll;
-        scroll-behavior: smooth;
-
-
+        width: 97.5%;
     }
-
     ul {
         list-style-type: none;
         margin: 0;
@@ -60,9 +64,9 @@ body{ scroll-behavior: smooth;
     padding: 0rem 0rem;
     padding-top: x;
     vertical-align: middle;
-    display: flex;
-    flex-grow: 1;
     font-weight: 700;
+    font-size: 5.8rem;
+    
     
   }
 
@@ -70,38 +74,29 @@ body{ scroll-behavior: smooth;
       /* logo Charachter */
         .Clogo {
             text-decoration: line-through;
-            display: flex;
             text-align: center;
             justify-content: center;
             font-size: 120px;
             letter-spacing: 15px;
-            flex-direction: columro;
-            flex-shrink: 1;
-            flex-grow: 1;
+            
         }
 
         /* side panel */
-        .S {
+        .SidePanel {
             font-family: Helvetica;
-            font-size: 15px;
-            display: flex;
-            flex-shrink: 1;
+            font-size: .875rem;
             justify-content: center;
             font-weight: 800;
             padding-top: 15px;
             transform: rotate(-90deg);
+            position: fixed;
+            right: -48px;
+            top: 50%;
+            font-weight: 700;
+            z-index: 9;
+
     
             }
-
-        .side {
-            display: flex;
-            flex-shrink: 0;
-            width: auto;
-            height: auto;
-            border: 0px solid red;
-            vertical-align: middle;
-            position: fixed; right: -40px;
-        }
 
 /* Center Moto */
 
@@ -111,18 +106,18 @@ body{ scroll-behavior: smooth;
     width: 0 auto;
     height: auto;
     align-items: center;
-    margin: 1rem;
-    padding: 0rem 0rem;
+    margin: 0rem;
+    padding-bottom: 100px;
     margin: 0;
-    border: px solid black;
-    position: absolute; top: 400px; right: 65vh;
-    
+    border: 0px solid black;
+    top: 40%;
+  
 
 
 
 
 }
-p {
+.Cm {
 margin: 0px;
 font-family: Helvetica, Arial, sans-serif;
 font-size: 24px; 
@@ -137,38 +132,66 @@ font-weight: lighter;
     width: 0 auto;
     padding-top: 65px;
     padding-left: 20px;
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
     position: fixed; bottom: 0px;
+    z-index: 9;
+    
 
 }
 
+
 /* SECTION 2 */
-#PAGE2{
-    border: 01px solid green; 
-    width: 200vh;
-    height: 100vmin;
+
+.PAGE2 {
+ 
+}
+    .Tittle {
+        border: px solid black;
+        margin-top: 5rem;
+        left: 100px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 10px;
+    
+    }
+
+    .CardContainer {
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        
+    
+     }
+
+.CardContainer .card {
+    max-width: 450px;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+}
+
+.CardContainer .card .ImgBox {
+    max-width: 150px;
+    padding: 10px;
+    flex: 0 0 150px
+}
+
+.cardimage {
+width: 100%;
+height: 100px;
+}
+
+/* Section 3 "about" */
+.Tittle {
+    border: px solid black;
+    margin-top: 5rem;
+    left: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 10px;
+
 
 
     
-}
-
- .PoemTitle {
- border: 01px solid red; 
- margin: 0rem;
- height: 250px;
- text-align: center;
- padding: 80px
-}
-h3 {
-text-transform: uppercase;
-
-}
- 
-
-#JEIV{
-    border: 01px solid red; 
-    margin-bottom: 100rem;
-    width: 200vh;  
-    height: auto;
-
-}
