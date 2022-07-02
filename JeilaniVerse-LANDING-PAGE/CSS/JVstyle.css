@@ -1,6 +1,7 @@
 body {
     background-color: #DADCD9;
     
+    
 }
 /*Section1 */ 
 
@@ -102,10 +103,8 @@ body {
 
 .Cmoto {
     text-align: center;
-    justify-content: center;
     width: 0 auto;
     height: auto;
-    align-items: center;
     margin: 0rem;
     padding-bottom: 100px;
     margin: 0;
@@ -145,7 +144,9 @@ font-weight: lighter;
 .PAGE2 {
  
 }
-    .Tittle {
+
+  /* Projects boxes */
+    .Tittle_Project {
         border: px solid black;
         margin-top: 5rem;
         left: 100px;
@@ -162,36 +163,106 @@ font-weight: lighter;
         flex-wrap: wrap;
         position: relative;
         
+        
     
      }
 
-.CardContainer .card {
+    .CardContainer .card {
     max-width: 450px;
     background-color: white;
     display: flex;
     margin: 10px;
-}
+    height: 250px;
+    
 
-.CardContainer .card .ImgBox {
+    }
+
+    .CardContainer .card .ImgBox {
     max-width: 150px;
     padding: 10px;
-    flex: 0 0 150px
-}
+    flex: 0 0 150px;
+    margin-bottom: 20px;
+     
+    }
 
-.cardimage {
-width: 100%;
-height: 100px;
-}
-
-/* Section 3 "about" */
-.Tittle {
-    border: px solid black;
-    margin-top: 5rem;
-    left: 100px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin: 10px;
-
+    .cardimage {
+    width: 100%;
+    height: 100px;
+    }
 
 
     
+    .Gbutton {
+        margin-top: 10px;
+    }
+    .Lbutton {
+        margin-top: 10px;
+    }
+  
+
+/* Section 3 "about" */
+
+#PAGE3{
+padding: 150px;
+}
+
+    .About_container {
+    width: 5000px;
+        max-width: 95%;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        border: 0px solid red; 
+      
+    
+
+    }
+    .profilePicture {
+        max-width: 600px;
+        background-color: white;
+        display: flex;
+        margin: 10px;
+        height: 400px;
+
+    }
+
+    .About_text h1 {
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+}
+   
+    .About_text h5 {
+        Font-size:25px;
+        text-transform: capitalize;
+
+}
+.About_text  {
+    text-transform: capitalize;
+    margin: 25px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+ 
+}
+
+
+/* Section 4 Footer */
+.footer {   border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+    .footer-box {
+        border: 0px solid red;
+        margin: -10px;
+    }
+
+    .Footer-list {
+        margin: 20px;
+
+    }
